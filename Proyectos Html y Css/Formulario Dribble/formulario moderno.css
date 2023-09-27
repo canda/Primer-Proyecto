@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.contenedor {
+    display: flex; /* tipo de dise;o en este caso flex */
+    flex-direction: column;  /* aclaramos que flex entonces ya podemos elegir los diferentes valores de flex */
+    align-items: center; 
+    justify-content: center;   /* buenas practicas */
+    gap: 20px;
+}
+
+
+.google {
+   background-color: #1A73E8;
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   display: flex;
+   align-items: center;  
+   padding: 2px 210px;
+   cursor: pointer;
+}
+
+.google picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    margin: -208px;
+}
+
+
+
+.google span {
+    color: white;
+    font-weight: 500;
+    padding: 10px 210px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 200%;
+    
+}
+
+.google:hover {
+    opacity: 0.75;
+}
+
+.botones {
+    /*align-self: flex-start; *//* como pasamos todo el documento se encuentra en una display flex porque contenedores esta flex podemos usar esta opcion */
+    width: 35%;
+    gap: 20px;
+    display: flex;
+    padding: 0px;
+}
+
+.twitter {
+    color: #ccc;
+    background-color: #F3F3F3;
+    border: none;
+    width: 40px;
+    border-radius: 2px;
+    cursor:pointer;
+    padding: 0px ppx
+    
+}
+
+.twitter picture {
+    width: 10px;
+    height: 31px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    
+    
+
+}
+
+.twitter:hover {
+    opacity: 0.75;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    width: 650px;
+    gap: 15px;
+    color: #8b8b8b;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc; 
+}
+
+label input {
+    background-color: hsl(0, 0%, 91%);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 100%;
+}
+
+label input:hover {
+    opacity: 0.75;
+}
+
+.section-names {
+    display: flex;
+    flex-direction: center;
+    padding: 50px 360px;
+    gap: 50px;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+
+    
+}
+
+.name {
+    width: 20%;
+    
+}
+
+.username {
+    width:20%;
+
+}
+
+.section-ingreso {
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 360px; 
+    width: 43.9%;
+    gap: 15px;
+    
+
+}
+
+.checkbox {
+    display: flex;
+    align-items:center;
+}
+
+.checkbox span {
+    display:flex;
+    ;
+}
+
+
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 450px;
+    object-fit: cover;
+
+}
+
+.create-account {
+    background-color: #0D0C22;
+   border: none;
+   color: white;
+   border-radius: 30px;
+   height: 50px;
+   align-items: center;  
+   cursor: pointer;
+   margin: 15px;
+   margin-left: 127px;
+   margin-right: 0px;
+   width: 400px;
+}
+
+.checkbox span {
+    position: absolute;
+    font-size: 14px;
+    
+
+}
+    
+    

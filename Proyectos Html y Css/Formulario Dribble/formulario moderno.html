@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Dribble</title>
+    <link rel="stylesheet" href="formulario moderno.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Sign up to Rebe's</h3>
+        <div class="contenedor-video">
+            <video class="video" playsinline autoplay muted loop>
+                <source src="b8bd4e4273cceae2889d9d259b04f732.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="botones">
+            <button class="google">
+                <picture>
+                    <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="google logo" />
+                </picture>
+                <span> Sign up with Google</span>
+            </button>
+            <button class="twitter">
+                <picture>
+                    <img src="https://toppng.com/uploads/preview/twitter-logo-png-transparent-background-graphic-freeuse-twitter-logo-black-11562911265gfzrhbl86r.png" alt="twitter logo">
+                </picture>
+            </button>
+        </div>
+            <div class="separador">
+            <hr> <!--linea horizontal-->
+            <span>or</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="section-names">
+                <label for="name" class="name">  <!-- nos permite una mayor claridad a que es un formulario el valor que ponemos en el for es despues la id de nuestro impud, son buenas practicas-->
+                    <span>Name</span>
+                    <input id="name" name="name" />
+                </label>
+                <label for="username" class="username">  <!-- nos permite una mayor claridad a que es un formulario el valor que ponemos en el for es despues la id de nuestro impud, son buenas practicas-->
+                    <span>Username</span>
+                    <input id="username" name="username" />
+                </label>
+            </div>
+            <div class="section-ingreso">
+                <label for="email">  <!-- nos permite una mayor claridad a que es un formulario el valor que ponemos en el for es despues la id de nuestro impud, son buenas practicas-->
+                    <span>Email</span>
+                    <input id="email" name="email" />
+                </label>
+                <label for="password">  <!-- nos permite una mayor claridad a que es un formulario el valor que ponemos en el for es despues la id de nuestro impud, son buenas practicas-->
+                    <span>password</span>
+                    <input id="password" name="password" placeholder="6+ characters" type="password"/>
+                </label>
+                <div class="checkbox">
+                    <label for="checkbox" >
+                        <input type="checkbox" id="checkbox"> <!--el type nos permite cambiar el formato del input en este caso checkbox un cuadrado de relleno-->
+                        <span>I agree with Rebe's Terms of Service, Privacy Policy, and default Notification Settings. </span>
+                    </label>
+                </div>
+                <button type="submit" class="create-account">
+                    <span>Create Account</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
