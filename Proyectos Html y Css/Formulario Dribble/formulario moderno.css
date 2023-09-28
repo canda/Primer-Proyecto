@@ -20,7 +20,7 @@
    height: 40px;
    display: flex;
    align-items: center;  
-   padding: 2px 210px;
+   width: 500px;
    cursor: pointer;
 }
 
@@ -30,7 +30,6 @@
     background-color: white;
     border-radius: 2px;
     display: flex;
-    margin: -208px;
 }
 
 
@@ -38,10 +37,8 @@
 .google span {
     color: white;
     font-weight: 500;
-    padding: 10px 210px;
     font-family: "Ubuntu", sans-serif;
-    margin: 200%;
-    
+    padding-left: 10px;
 }
 
 .google:hover {
